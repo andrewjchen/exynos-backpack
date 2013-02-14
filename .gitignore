@@ -1,0 +1,13 @@
+*.b#*	
+*.s#*
+*.l#*
+*.pdf
+doc/*
+gerber/*
+dru/
+cam/
+lbr/
+gerb/*
+*.log
+*.raw
+*.net
