@@ -1997,9 +1997,9 @@ Digi-Key P/N: 296-20499-ND</description>
 <part name="GND2" library="biomimetic" deviceset="GND" device=""/>
 <part name="FRAME1" library="biomimetic" deviceset="FRAME-LETTER" device=""/>
 <part name="IC3" library="biomimetic" deviceset="LTC4352" device="DD"/>
-<part name="R1" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="2k"/>
-<part name="R2" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="27k"/>
-<part name="R3" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="3.6k"/>
+<part name="R1" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="1.5k"/>
+<part name="R2" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="20k"/>
+<part name="R3" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="2.7k"/>
 <part name="Q1" library="biomimetic" deviceset="SI7234DP" device=""/>
 <part name="C1" library="biomimetic" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C2" library="biomimetic" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
@@ -2023,9 +2023,9 @@ Digi-Key P/N: 296-20499-ND</description>
 <part name="GND6" library="biomimetic" deviceset="GND" device=""/>
 <part name="GND7" library="biomimetic" deviceset="GND" device=""/>
 <part name="IC4" library="biomimetic" deviceset="LTC4352" device="DD"/>
-<part name="R11" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="2k"/>
-<part name="R12" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="27k"/>
-<part name="R13" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="3.6k"/>
+<part name="R11" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="1.5k"/>
+<part name="R12" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="20k"/>
+<part name="R13" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="2.7k"/>
 <part name="Q3" library="biomimetic" deviceset="SI7234DP" device=""/>
 <part name="C5" library="biomimetic" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C6" library="biomimetic" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
