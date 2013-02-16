@@ -2003,8 +2003,8 @@ Digi-Key P/N: 296-20499-ND</description>
 <part name="Q1" library="biomimetic" deviceset="SI7234DP" device=""/>
 <part name="C1" library="biomimetic" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C2" library="biomimetic" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="R4" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="750"/>
-<part name="R5" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="750"/>
+<part name="R4" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="330"/>
+<part name="R5" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="330"/>
 <part name="LED1" library="biomimetic" deviceset="LED" device="0603" value="FAULT_BATTA"/>
 <part name="LED2" library="biomimetic" deviceset="LED" device="0603" value="STATUS_BATTA"/>
 <part name="GND4" library="biomimetic" deviceset="GND" device=""/>
@@ -2016,8 +2016,8 @@ Digi-Key P/N: 296-20499-ND</description>
 <part name="Q2" library="biomimetic" deviceset="SI7234DP" device=""/>
 <part name="C3" library="biomimetic" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C4" library="biomimetic" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="R9" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="750"/>
-<part name="R10" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="750"/>
+<part name="R9" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="510"/>
+<part name="R10" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="510"/>
 <part name="LED3" library="biomimetic" deviceset="LED" device="0603" value="FAULT_BATTA"/>
 <part name="LED4" library="biomimetic" deviceset="LED" device="0603" value="STATUS_BATTA"/>
 <part name="GND6" library="biomimetic" deviceset="GND" device=""/>
@@ -2029,8 +2029,8 @@ Digi-Key P/N: 296-20499-ND</description>
 <part name="Q3" library="biomimetic" deviceset="SI7234DP" device=""/>
 <part name="C5" library="biomimetic" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C6" library="biomimetic" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="R14" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="750"/>
-<part name="R15" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="750"/>
+<part name="R14" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="330"/>
+<part name="R15" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="330"/>
 <part name="LED5" library="biomimetic" deviceset="LED" device="0603" value="FAULT_BATTA"/>
 <part name="LED6" library="biomimetic" deviceset="LED" device="0603" value="STATUS_BATTA"/>
 <part name="GND8" library="biomimetic" deviceset="GND" device=""/>
