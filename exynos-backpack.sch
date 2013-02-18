@@ -1018,8 +1018,8 @@ Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;br&g
 <wire x1="-0.5" y1="0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="21"/>
 <smd name="1" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
 <smd name="2" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
-<text x="-0.889" y="1.016" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-1.4986" y="1.016" size="0.6096" layer="25" font="vector" ratio="25">&gt;NAME</text>
+<text x="-1.4732" y="-1.5494" size="0.6096" layer="27" font="vector" ratio="25">&gt;VALUE</text>
 </package>
 <package name="PTN04050C">
 <wire x1="-11.049" y1="6.2865" x2="11.049" y2="6.2865" width="0.05" layer="51"/>
@@ -1040,6 +1040,54 @@ Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;br&g
 <pad name="2" x="-9.525" y="-1.5875" drill="1.397"/>
 <pad name="4" x="9.525" y="4.7625" drill="1.397"/>
 <pad name="3" x="9.525" y="-4.7625" drill="1.397"/>
+</package>
+<package name="JST-RCY-MALE">
+<pad name="1" x="1.25" y="-12.35" drill="1.27" shape="square"/>
+<pad name="2" x="-1.25" y="-12.35" drill="1.27"/>
+<wire x1="2.95" y1="-9.5" x2="-2.95" y2="-9.5" width="0.1524" layer="21"/>
+<wire x1="2.95" y1="-9.5" x2="2.95" y2="0" width="0.1524" layer="21"/>
+<wire x1="-2.95" y1="-9.5" x2="-2.95" y2="0" width="0.1524" layer="21"/>
+<wire x1="2.95" y1="-9.5" x2="-2.95" y2="-9.5" width="0.05" layer="51"/>
+<wire x1="-2.95" y1="0" x2="-3.35" y2="0.4" width="0.05" layer="51" curve="-90"/>
+<wire x1="-3.35" y1="0.4" x2="-3.35" y2="9.5" width="0.05" layer="51"/>
+<wire x1="-3.35" y1="9.5" x2="-2.65" y2="9.5" width="0.05" layer="51"/>
+<wire x1="-2.65" y1="9.5" x2="2.65" y2="9.5" width="0.05" layer="51"/>
+<wire x1="2.65" y1="9.5" x2="3.35" y2="9.5" width="0.05" layer="51"/>
+<wire x1="2.95" y1="0" x2="3.35" y2="0.4" width="0.05" layer="51" curve="90"/>
+<wire x1="3.35" y1="0.4" x2="3.35" y2="9.5" width="0.05" layer="51"/>
+<wire x1="2.95" y1="-9.5" x2="2.95" y2="0" width="0.05" layer="51"/>
+<wire x1="-2.95" y1="-9.5" x2="-2.95" y2="0" width="0.05" layer="51"/>
+<wire x1="-2.2" y1="-9.05" x2="2.2" y2="-9.05" width="0.05" layer="51"/>
+<wire x1="2.2" y1="-9.05" x2="2.2" y2="-5.85" width="0.05" layer="51"/>
+<wire x1="2.2" y1="-5.85" x2="-2.2" y2="-5.85" width="0.05" layer="51"/>
+<wire x1="-2.2" y1="-5.85" x2="-2.2" y2="-9.05" width="0.05" layer="51"/>
+<text x="0" y="-6.95" size="1.4224" layer="51" align="center">JST</text>
+<text x="-1.25" y="-8.8" size="0.8128" layer="51" align="bottom-center">2</text>
+<text x="1.25" y="-8.8" size="0.8128" layer="51" align="bottom-center">1</text>
+<wire x1="-1.25" y1="-12.35" x2="-1.25" y2="-10.19" width="1.27" layer="51"/>
+<wire x1="1.25" y1="-12.35" x2="1.25" y2="-10.19" width="1.27" layer="51"/>
+<rectangle x1="-1.885" y1="-10.525" x2="-0.615" y2="-9.525" layer="51"/>
+<rectangle x1="0.615" y1="-10.52" x2="1.885" y2="-9.52" layer="51"/>
+<wire x1="-3.15" y1="13.8" x2="3.15" y2="13.8" width="0.05" layer="51"/>
+<wire x1="-2.65" y1="13.2" x2="-2.65" y2="9.5" width="0.05" layer="51"/>
+<wire x1="2.65" y1="13.2" x2="2.65" y2="9.5" width="0.05" layer="51"/>
+<wire x1="-3.15" y1="13.8" x2="-3.15" y2="13.2" width="0.05" layer="51"/>
+<wire x1="-3.15" y1="13.2" x2="-2.65" y2="13.2" width="0.05" layer="51"/>
+<wire x1="3.15" y1="13.8" x2="3.15" y2="13.2" width="0.05" layer="51"/>
+<wire x1="3.15" y1="13.2" x2="2.65" y2="13.2" width="0.05" layer="51"/>
+<wire x1="-2.2" y1="9.8" x2="2.2" y2="9.8" width="0.05" layer="51"/>
+<wire x1="2.2" y1="9.8" x2="2.2" y2="13" width="0.05" layer="51"/>
+<wire x1="2.2" y1="13" x2="-2.2" y2="13" width="0.05" layer="51"/>
+<wire x1="-2.2" y1="13" x2="-2.2" y2="9.8" width="0.05" layer="51"/>
+<text x="0" y="11.95" size="1.4224" layer="51" rot="SR180" align="center">JST</text>
+<text x="-1.25" y="10.8" size="0.8128" layer="51" rot="SR180" align="bottom-center">2</text>
+<text x="1.25" y="10.8" size="0.8128" layer="51" rot="SR180" align="bottom-center">1</text>
+<wire x1="-1.25" y1="16.65" x2="-1.25" y2="14.49" width="1.27" layer="51"/>
+<rectangle x1="-1.885" y1="13.825" x2="-0.615" y2="14.825" layer="51" rot="R180"/>
+<wire x1="1.25" y1="16.65" x2="1.25" y2="14.49" width="1.27" layer="51"/>
+<rectangle x1="0.615" y1="13.825" x2="1.885" y2="14.825" layer="51" rot="R180"/>
+<text x="3.3528" y="-8.5344" size="0.6096" layer="25" font="vector" ratio="25">&gt;NAME</text>
+<text x="3.3528" y="-9.4488" size="0.6096" layer="27" font="vector" ratio="25">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1311,6 +1359,18 @@ Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;br&g
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
 <text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="M02">
+<wire x1="3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1946,6 +2006,23 @@ Digi-Key P/N: 296-20499-ND</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="JST-RCY-MALE" prefix="JP">
+<description>JST RCY male pigtail connector</description>
+<gates>
+<gate name="G$1" symbol="M02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST-RCY-MALE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -2052,6 +2129,8 @@ Digi-Key P/N: 296-20499-ND</description>
 <part name="C10" library="biomimetic" deviceset="CAP" device="1210" value="100uF"/>
 <part name="C11" library="biomimetic" deviceset="CAP" device="1210" value="100uF"/>
 <part name="GND23" library="biomimetic" deviceset="GND" device=""/>
+<part name="JP5" library="biomimetic" deviceset="JST-RCY-MALE" device=""/>
+<part name="JP6" library="biomimetic" deviceset="JST-RCY-MALE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2458,6 +2537,8 @@ Digi-Key P/N: 296-20499-ND</description>
 <instance part="C10" gate="G$1" x="167.64" y="66.04"/>
 <instance part="C11" gate="G$1" x="208.28" y="66.04"/>
 <instance part="GND23" gate="1" x="187.96" y="48.26"/>
+<instance part="JP5" gate="G$1" x="7.62" y="147.32"/>
+<instance part="JP6" gate="G$1" x="7.62" y="60.96"/>
 </instances>
 <busses>
 </busses>
