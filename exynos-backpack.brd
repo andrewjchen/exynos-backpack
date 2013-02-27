@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="6" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="6" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,21 +23,21 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
@@ -147,7 +147,7 @@ v1.0 Rev. A 2013.02.27</text>
 <wire x1="29" y1="22" x2="29" y2="52" width="0.508" layer="40"/>
 <wire x1="25" y1="0" x2="25" y2="22" width="0.254" layer="20"/>
 <hole x="21.4884" y="25.908" drill="4.064"/>
-<wire x1="2.7432" y1="32.766" x2="0.4572" y2="32.766" width="0.1524" layer="21"/>
+<wire x1="2.8956" y1="32.766" x2="0.4572" y2="32.766" width="0.1524" layer="21"/>
 <wire x1="0.4572" y1="32.766" x2="0.9144" y2="33.0708" width="0.1524" layer="21"/>
 <wire x1="0.4572" y1="32.766" x2="0.9144" y2="32.4612" width="0.1524" layer="21"/>
 <text x="0.6096" y="44.6532" size="0.6096" layer="21" font="vector" ratio="25">Biomimetic
@@ -155,6 +155,9 @@ Millisystems
 Laboratory</text>
 <text x="0.6096" y="47.7012" size="0.6096" layer="21" font="vector" ratio="25">Design by:
 Ryan Julian</text>
+<wire x1="23.9268" y1="4.2672" x2="23.9268" y2="0.6096" width="0.1524" layer="21"/>
+<wire x1="23.9268" y1="0.6096" x2="23.622" y2="1.0668" width="0.1524" layer="21"/>
+<wire x1="23.9268" y1="0.6096" x2="24.2316" y2="1.0668" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="biomimetic">
@@ -4849,48 +4852,48 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="14.9352" y="37.4904" size="0.6096" layer="27" font="vector" ratio="25" align="bottom-center"/>
 <attribute name="DIGIKEY" value="WM1387CT-ND" x="14.9352" y="34.7472" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC1" library="biomimetic" package="MLF-6" value="MIC5335-SPYMT" x="19.9644" y="36.4236" locked="yes" smashed="yes">
+<element name="IC2" library="biomimetic" package="MLF-6" value="MIC5335-SPYMT" x="19.9644" y="36.4236" locked="yes" smashed="yes">
 <attribute name="NAME" x="21.1836" y="36.7284" size="0.6096" layer="25" font="vector" ratio="25"/>
 <attribute name="DIGIKEY" value="576-1949-1-ND" x="19.9644" y="36.4236" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C12" library="biomimetic" package="0402-CAP" value="1uF" x="19.9644" y="33.9852" locked="yes" smashed="yes" rot="R180">
+<element name="C4" library="biomimetic" package="0402-CAP" value="1uF" x="19.9644" y="33.9852" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.9644" y="32.4612" size="0.6096" layer="25" font="vector" ratio="25" align="bottom-center"/>
 </element>
-<element name="C13" library="biomimetic" package="0402-CAP" value="1uF" x="18.7452" y="38.862" locked="yes" smashed="yes">
+<element name="C3" library="biomimetic" package="0402-CAP" value="1uF" x="18.7452" y="38.862" locked="yes" smashed="yes">
 <attribute name="NAME" x="17.526" y="39.1668" size="0.6096" layer="25" font="vector" ratio="25" rot="R180"/>
 </element>
-<element name="IC2" library="biomimetic" package="R-PVQFN-N20" value="TXB0108RGY" x="14.6304" y="42.2148" locked="yes" smashed="yes" rot="R180">
+<element name="IC1" library="biomimetic" package="R-PVQFN-N20" value="TXB0108RGY" x="14.6304" y="42.2148" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.3444" y="45.4152" size="0.6096" layer="25" font="vector" ratio="25" align="top-left"/>
 </element>
-<element name="C15" library="biomimetic" package="0402-CAP" value="0.1uF" x="18.7452" y="44.0436" locked="yes" smashed="yes">
+<element name="C1" library="biomimetic" package="0402-CAP" value="0.1uF" x="18.7452" y="44.0436" locked="yes" smashed="yes">
 <attribute name="DESIGN_NAME" value="OMAPProc" x="18.7452" y="44.0436" size="1.778" layer="27" display="off"/>
 <attribute name="AUTHOR" value="Ryan Julian (ryanjulian@berkeley.edu)" x="18.7452" y="44.0436" size="1.778" layer="27" display="off"/>
 <attribute name="REVISION" value="B" x="18.7452" y="44.0436" size="1.778" layer="27" display="off"/>
 <attribute name="YEAR" value="2012" x="18.7452" y="44.0436" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="18.7452" y="44.958" size="0.6096" layer="25" font="vector" ratio="25" align="bottom-center"/>
 </element>
-<element name="C16" library="biomimetic" package="0402-CAP" value="0.1uF" x="18.7452" y="40.386" locked="yes" smashed="yes">
+<element name="C2" library="biomimetic" package="0402-CAP" value="0.1uF" x="18.7452" y="40.386" locked="yes" smashed="yes">
 <attribute name="DESIGN_NAME" value="OMAPProc" x="18.7452" y="40.386" size="1.778" layer="27" display="off"/>
 <attribute name="AUTHOR" value="Ryan Julian (ryanjulian@berkeley.edu)" x="18.7452" y="40.386" size="1.778" layer="27" display="off"/>
 <attribute name="REVISION" value="B" x="18.7452" y="40.386" size="1.778" layer="27" display="off"/>
 <attribute name="YEAR" value="2012" x="18.7452" y="40.386" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="18.7452" y="41.3004" size="0.6096" layer="25" font="vector" ratio="25" align="bottom-center"/>
 </element>
-<element name="U$12" library="biomimetic" package="CAL_LOGO" value="" x="7.4676" y="45.8724"/>
+<element name="$$U$1" library="biomimetic" package="CAL_LOGO" value="" x="7.4676" y="45.8724"/>
 <element name="PS1" library="biomimetic" package="PTN04050C" value="PTN04050C" x="12.4968" y="15.6972" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="1.3716" y="23.3172" size="0.6096" layer="25" font="vector" ratio="25"/>
 <attribute name="VALUE" x="1.3716" y="22.4028" size="0.6096" layer="27" font="vector" ratio="25"/>
 </element>
-<element name="C10" library="biomimetic" package="1210" value="100uF" x="20.574" y="14.1732" locked="yes" smashed="yes" rot="MR0">
+<element name="C101" library="biomimetic" package="1210" value="100uF" x="20.574" y="14.1732" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="20.1168" y="15.8496" size="0.6096" layer="26" font="vector" ratio="25" rot="MR0" align="bottom-center"/>
 </element>
-<element name="C11" library="biomimetic" package="1210" value="100uF" x="7.1628" y="11.1252" locked="yes" smashed="yes" rot="MR180">
+<element name="C100" library="biomimetic" package="1210" value="100uF" x="7.1628" y="11.1252" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="7.1628" y="12.8016" size="0.6096" layer="26" font="vector" ratio="25" rot="MR0" align="bottom-center"/>
 </element>
 <element name="U$2" library="biomimetic" package="ODROID-U2-KEEPOUT" value="ODROID-U2" x="0" y="0"/>
-<element name="JP3" library="biomimetic" package="JST-RCY-MALE_NOSILK" value="BATTERY" x="19.9644" y="0" locked="yes" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.002" y="5.1816" size="0.6096" layer="25" font="vector" ratio="25"/>
-<attribute name="VALUE" x="17.8308" y="8.5344" size="0.6096" layer="27" font="vector" ratio="25"/>
+<element name="JP5" library="biomimetic" package="JST-RCY-MALE_NOSILK" value="BATTERY" x="19.9644" y="0" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="15.6972" y="7.62" size="0.6096" layer="25" font="vector" ratio="25"/>
+<attribute name="VALUE" x="23.622" y="8.382" size="0.6096" layer="27" font="vector" ratio="25" rot="SR270"/>
 </element>
 <element name="JP1" library="biomimetic" package="1X04_MOLEX_5267_NOSILK" value="ODROID UART" x="19.9" y="49.03" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="20.7264" y="47.244" size="0.6096" layer="26" font="vector" ratio="25" rot="MR0"/>
@@ -4900,21 +4903,21 @@ design rules under a new name.</description>
 <attribute name="NAME" x="3.2004" y="33.3756" size="0.6096" layer="25" font="vector" ratio="25"/>
 <attribute name="VALUE" x="3.2004" y="32.4612" size="0.6096" layer="27" font="vector" ratio="25"/>
 </element>
-<element name="JP5" library="biomimetic" package="1X04_MOLEX_5267" value="CONSOLE" x="25.4508" y="32.9184" locked="yes" smashed="yes" rot="R90">
+<element name="JP3" library="biomimetic" package="1X04_MOLEX_5267" value="CONSOLE" x="25.4508" y="32.9184" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.7744" y="44.196" size="0.6096" layer="25" font="vector" ratio="25"/>
 <attribute name="VALUE" x="23.7744" y="43.2816" size="0.6096" layer="27" font="vector" ratio="25"/>
 </element>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="C12" pad="1"/>
-<contactref element="IC1" pad="2"/>
-<contactref element="IC1" pad="EPAD"/>
-<contactref element="C13" pad="2"/>
-<contactref element="IC2" pad="11"/>
+<contactref element="C4" pad="1"/>
+<contactref element="IC2" pad="2"/>
 <contactref element="IC2" pad="EPAD"/>
-<contactref element="C15" pad="2"/>
-<contactref element="C16" pad="2"/>
+<contactref element="C3" pad="2"/>
+<contactref element="IC1" pad="11"/>
+<contactref element="IC1" pad="EPAD"/>
+<contactref element="C1" pad="2"/>
+<contactref element="C2" pad="2"/>
 <polygon width="0.1524" layer="1" rank="6">
 <vertex x="0" y="52"/>
 <vertex x="30.524" y="52"/>
@@ -4936,26 +4939,26 @@ design rules under a new name.</description>
 <vertex x="0" y="9"/>
 </polygon>
 <contactref element="PS1" pad="1"/>
-<contactref element="C10" pad="2"/>
-<contactref element="C11" pad="2"/>
-<contactref element="IC2" pad="5"/>
-<contactref element="IC2" pad="6"/>
-<contactref element="IC2" pad="7"/>
-<contactref element="IC2" pad="8"/>
-<contactref element="IC2" pad="9"/>
-<contactref element="IC2" pad="16"/>
-<contactref element="IC2" pad="12"/>
-<contactref element="IC2" pad="13"/>
-<contactref element="IC2" pad="14"/>
-<contactref element="IC2" pad="15"/>
+<contactref element="C101" pad="2"/>
+<contactref element="C100" pad="2"/>
+<contactref element="IC1" pad="5"/>
+<contactref element="IC1" pad="6"/>
+<contactref element="IC1" pad="7"/>
+<contactref element="IC1" pad="8"/>
+<contactref element="IC1" pad="9"/>
+<contactref element="IC1" pad="16"/>
+<contactref element="IC1" pad="12"/>
+<contactref element="IC1" pad="13"/>
+<contactref element="IC1" pad="14"/>
+<contactref element="IC1" pad="15"/>
 <contactref element="JP1" pad="4"/>
-<contactref element="JP3" pad="1"/>
-<contactref element="IC2" pad="1"/>
-<contactref element="IC2" pad="20"/>
+<contactref element="JP5" pad="1"/>
+<contactref element="IC1" pad="1"/>
+<contactref element="IC1" pad="20"/>
 <contactref element="JP4" pad="1"/>
 <contactref element="JP2" pad="3"/>
 <contactref element="JP2" pad="5"/>
-<contactref element="JP5" pad="4"/>
+<contactref element="JP3" pad="4"/>
 <polygon width="0.1524" layer="1" thermals="no" rank="2">
 <vertex x="0" y="31.5468"/>
 <vertex x="24.9936" y="31.5468"/>
@@ -4972,14 +4975,14 @@ design rules under a new name.</description>
 <vertex x="15.0876" y="8.9916"/>
 <vertex x="0" y="8.9916"/>
 </polygon>
-<contactref element="IC1" pad="3"/>
+<contactref element="IC2" pad="3"/>
 </signal>
 <signal name="1.8V">
-<contactref element="IC2" pad="2"/>
+<contactref element="IC1" pad="2"/>
 <contactref element="JP1" pad="1"/>
-<contactref element="IC2" pad="10"/>
-<contactref element="C15" pad="1"/>
-<contactref element="JP5" pad="1"/>
+<contactref element="IC1" pad="10"/>
+<contactref element="C1" pad="1"/>
+<contactref element="JP3" pad="1"/>
 <wire x1="19.9" y1="49.03" x2="18.2626" y2="47.3926" width="0.254" layer="1"/>
 <wire x1="18.2626" y1="47.3926" x2="18.2626" y2="44.0436" width="0.254" layer="1"/>
 <wire x1="18.2626" y1="44.0436" x2="18.2088" y2="43.9898" width="0.254" layer="1"/>
@@ -4996,12 +4999,12 @@ design rules under a new name.</description>
 <wire x1="13.335" y1="45.339" x2="17.0688" y2="45.339" width="0.254" layer="16"/>
 </signal>
 <signal name="V_BATT">
-<contactref element="C12" pad="2"/>
-<contactref element="IC1" pad="1"/>
-<contactref element="IC1" pad="4"/>
-<contactref element="C10" pad="1"/>
+<contactref element="C4" pad="2"/>
+<contactref element="IC2" pad="1"/>
+<contactref element="IC2" pad="4"/>
+<contactref element="C101" pad="1"/>
 <contactref element="PS1" pad="2"/>
-<contactref element="JP3" pad="2"/>
+<contactref element="JP5" pad="2"/>
 <wire x1="19.4644" y1="35.5236" x2="19.4644" y2="34.0026" width="0.254" layer="1"/>
 <wire x1="19.4644" y1="34.0026" x2="19.4818" y2="33.9852" width="0.254" layer="1"/>
 <wire x1="19.4818" y1="33.9852" x2="19.4818" y2="29.3878" width="0.508" layer="1"/>
@@ -5046,10 +5049,10 @@ design rules under a new name.</description>
 <wire x1="19.4644" y1="35.3568" x2="18.4404" y2="35.3568" width="0.254" layer="1"/>
 </signal>
 <signal name="3.3V">
-<contactref element="C13" pad="1"/>
-<contactref element="IC1" pad="6"/>
-<contactref element="IC2" pad="19"/>
-<contactref element="C16" pad="1"/>
+<contactref element="C3" pad="1"/>
+<contactref element="IC2" pad="6"/>
+<contactref element="IC1" pad="19"/>
+<contactref element="C2" pad="1"/>
 <wire x1="18.2626" y1="40.386" x2="18.2088" y2="40.4398" width="0.254" layer="1"/>
 <wire x1="18.2088" y1="40.4398" x2="16.3804" y2="40.4398" width="0.254" layer="1"/>
 <wire x1="18.2626" y1="40.386" x2="18.2626" y2="38.862" width="0.254" layer="1"/>
@@ -5061,7 +5064,7 @@ design rules under a new name.</description>
 <wire x1="18.288" y1="38.8366" x2="18.2626" y2="38.862" width="0.254" layer="1"/>
 </signal>
 <signal name="5V">
-<contactref element="C11" pad="1"/>
+<contactref element="C100" pad="1"/>
 <contactref element="PS1" pad="4"/>
 <contactref element="JP4" pad="2"/>
 <polygon width="0.1524" layer="1" thermals="no">
@@ -5096,9 +5099,9 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="ODROID_TXD">
-<contactref element="IC2" pad="3"/>
+<contactref element="IC1" pad="3"/>
 <contactref element="JP1" pad="2"/>
-<contactref element="JP5" pad="2"/>
+<contactref element="JP3" pad="2"/>
 <wire x1="17.4" y1="49.03" x2="15.8804" y2="47.5104" width="0.254" layer="1"/>
 <wire x1="15.8804" y1="47.5104" x2="15.8804" y2="43.9898" width="0.254" layer="1"/>
 <wire x1="25.4508" y1="35.4184" x2="26.8078" y2="35.4184" width="0.254" layer="16"/>
@@ -5109,9 +5112,9 @@ design rules under a new name.</description>
 <wire x1="21.091" y1="45.339" x2="17.4" y2="49.03" width="0.254" layer="16"/>
 </signal>
 <signal name="ODROID_RXD">
-<contactref element="IC2" pad="4"/>
+<contactref element="IC1" pad="4"/>
 <contactref element="JP1" pad="3"/>
-<contactref element="JP5" pad="3"/>
+<contactref element="JP3" pad="3"/>
 <wire x1="14.9" y1="49.03" x2="15.3804" y2="48.5496" width="0.254" layer="1"/>
 <wire x1="15.3804" y1="48.5496" x2="15.3804" y2="43.9898" width="0.254" layer="1"/>
 <wire x1="23.241" y1="40.689" x2="14.9" y2="49.03" width="0.254" layer="16"/>
@@ -5119,14 +5122,14 @@ design rules under a new name.</description>
 <wire x1="23.241" y1="40.1282" x2="25.4508" y2="37.9184" width="0.254" layer="16"/>
 </signal>
 <signal name="IMAGEPROC_RXD">
-<contactref element="IC2" pad="18"/>
+<contactref element="IC1" pad="18"/>
 <contactref element="JP2" pad="6"/>
 <wire x1="15.8804" y1="40.4398" x2="15.8804" y2="37.993" width="0.254" layer="1"/>
 <wire x1="15.8804" y1="37.993" x2="16.1852" y2="37.6882" width="0.254" layer="1"/>
 <wire x1="16.1852" y1="37.6882" x2="16.1852" y2="36.4722" width="0.254" layer="1"/>
 </signal>
 <signal name="IMAGEPROC_TXD">
-<contactref element="IC2" pad="17"/>
+<contactref element="IC1" pad="17"/>
 <contactref element="JP2" pad="4"/>
 <wire x1="15.3804" y1="40.4398" x2="15.3804" y2="37.8594" width="0.254" layer="1"/>
 <wire x1="15.3804" y1="37.8594" x2="15.1852" y2="37.6642" width="0.254" layer="1"/>
