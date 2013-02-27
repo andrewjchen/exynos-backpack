@@ -520,104 +520,6 @@ Source: http://www.ti.com/lit/ml/mpqf116g/mpqf116g.pdf</description>
 <text x="3.5052" y="-3.6576" size="0.6096" layer="25" font="vector" ratio="25">&gt;NAME</text>
 <text x="3.5052" y="-4.572" size="0.6096" layer="27" font="vector" ratio="25">&gt;VALUE</text>
 </package>
-<package name="ODROID-U2">
-<wire x1="0" y1="0" x2="48" y2="0" width="0.05" layer="51"/>
-<wire x1="48" y1="0" x2="48" y2="13.61" width="0.05" layer="51"/>
-<wire x1="48" y1="13.61" x2="48" y2="18.51" width="0.05" layer="51"/>
-<wire x1="48" y1="18.51" x2="48" y2="52" width="0.05" layer="51"/>
-<wire x1="48" y1="52" x2="38.01" y2="52" width="0.05" layer="51"/>
-<wire x1="38.01" y1="52" x2="25.81" y2="52" width="0.05" layer="51"/>
-<wire x1="25.81" y1="52" x2="0" y2="52" width="0.05" layer="51"/>
-<wire x1="0" y1="52" x2="0" y2="20.915" width="0.05" layer="51"/>
-<wire x1="0" y1="20.915" x2="0" y2="1.865" width="0.05" layer="51"/>
-<wire x1="0" y1="1.865" x2="0" y2="0" width="0.05" layer="51"/>
-<pad name="9" x="7.32" y="7.85" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="1" x="9.86" y="7.85" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="2" x="9.86" y="10.39" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="3" x="7.32" y="10.39" drill="1.016" diameter="1.651" rot="R90"/>
-<pad name="4" x="7.32" y="10.39" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="10" x="7.32" y="12.39" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="13" x="9.86" y="12.39" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="14" x="7.32" y="14.93" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="25" x="9.86" y="14.93" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="26" x="14.72" y="6.87" drill="1.016" diameter="1.651" rot="R90"/>
-<pad name="27" x="14.72" y="6.87" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="28" x="14.72" y="9.41" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="29" x="14.72" y="11.95" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="30" x="14.72" y="14.49" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="31" x="17.26" y="15.76" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="32" x="17.26" y="13.22" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="33" x="17.26" y="10.68" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="34" x="17.26" y="8.14" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="35" x="20.04" y="4.09" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="36" x="20.04" y="6.63" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="37" x="20.04" y="15.91" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="38" x="20.04" y="18.45" drill="1.016" diameter="1.6256" rot="R90"/>
-<wire x1="23" y1="20.915" x2="23" y2="1.865" width="0.05" layer="51"/>
-<wire x1="23" y1="1.865" x2="0" y2="1.865" width="0.05" layer="51"/>
-<wire x1="23" y1="20.915" x2="0" y2="20.915" width="0.05" layer="51"/>
-<wire x1="23" y1="20.915" x2="23" y2="1.865" width="0.1524" layer="21"/>
-<wire x1="23" y1="1.865" x2="0" y2="1.865" width="0.1524" layer="21"/>
-<wire x1="23" y1="20.915" x2="0" y2="20.915" width="0.1524" layer="21"/>
-<pad name="5" x="28.1" y="49.03" drill="1.016" diameter="1.6256" shape="square" rot="R90" first="yes"/>
-<pad name="6" x="30.64" y="49.03" drill="1.016" diameter="1.6256" rot="R90" first="yes"/>
-<pad name="7" x="33.18" y="49.03" drill="1.016" diameter="1.6256" rot="R90" first="yes"/>
-<pad name="8" x="35.72" y="49.03" drill="1.016" diameter="1.6256" rot="R90" first="yes"/>
-<wire x1="38.01" y1="47" x2="26.81" y2="47" width="0.05" layer="51"/>
-<wire x1="26.81" y1="47" x2="25.81" y2="48" width="0.05" layer="51"/>
-<wire x1="38.01" y1="47" x2="38.01" y2="52" width="0.05" layer="51"/>
-<wire x1="25.81" y1="48" x2="25.81" y2="52" width="0.05" layer="51"/>
-<wire x1="26.81" y1="47" x2="25.81" y2="48" width="0.1524" layer="21"/>
-<wire x1="38.01" y1="47" x2="26.81" y2="47" width="0.1524" layer="21"/>
-<wire x1="38.01" y1="47" x2="38.01" y2="52" width="0.1524" layer="21"/>
-<wire x1="25.81" y1="48" x2="25.81" y2="52" width="0.1524" layer="21"/>
-<pad name="11" x="40.37" y="16.06" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="12" x="42.53" y="18.27" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="15" x="42.53" y="13.84" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="16" x="45.53" y="18.27" drill="1.016" diameter="1.6256" rot="R90"/>
-<pad name="17" x="45.53" y="13.84" drill="1.016" diameter="1.6256" rot="R90"/>
-<wire x1="40.25" y1="18.51" x2="40.25" y2="13.61" width="0.05" layer="51"/>
-<wire x1="40.25" y1="18.51" x2="48" y2="18.51" width="0.05" layer="51"/>
-<wire x1="40.25" y1="13.61" x2="48" y2="13.61" width="0.05" layer="51"/>
-<wire x1="41.4782" y1="18.51" x2="40.25" y2="18.51" width="0.1524" layer="21"/>
-<wire x1="40.25" y1="18.51" x2="40.25" y2="17.1196" width="0.1524" layer="21"/>
-<wire x1="43.5864" y1="18.51" x2="44.4754" y2="18.51" width="0.1524" layer="21"/>
-<wire x1="46.5836" y1="18.51" x2="47.9298" y2="18.51" width="0.1524" layer="21"/>
-<wire x1="40.25" y1="14.986" x2="40.25" y2="13.61" width="0.1524" layer="21"/>
-<wire x1="40.25" y1="13.61" x2="41.4782" y2="13.61" width="0.1524" layer="21"/>
-<wire x1="43.5864" y1="13.61" x2="44.4754" y2="13.61" width="0.1524" layer="21"/>
-<wire x1="46.5836" y1="13.61" x2="47.9298" y2="13.61" width="0.1524" layer="21"/>
-<wire x1="30.1" y1="4.8542" x2="30.1" y2="1.1458" width="0.2032" layer="41" curve="-180"/>
-<wire x1="30.1" y1="1.1458" x2="30.1" y2="4.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="30.1" y1="1.1458" x2="30.1" y2="4.8542" width="0.2032" layer="42" curve="180"/>
-<wire x1="30.1" y1="1.1458" x2="30.1" y2="4.8542" width="0.2032" layer="42" curve="-180"/>
-<circle x="30.1" y="3" radius="2.794" width="0.127" layer="39"/>
-<hole x="30.1" y="3" drill="3.048"/>
-<wire x1="45" y1="42.6542" x2="45" y2="38.9458" width="0.2032" layer="41" curve="-180"/>
-<wire x1="45" y1="38.9458" x2="45" y2="42.6542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="45" y1="38.9458" x2="45" y2="42.6542" width="0.2032" layer="42" curve="180"/>
-<wire x1="45" y1="38.9458" x2="45" y2="42.6542" width="0.2032" layer="42" curve="-180"/>
-<circle x="45" y="40.8" radius="2.794" width="0.127" layer="39"/>
-<hole x="45" y="40.8" drill="3.048"/>
-<wire x1="21.9" y1="50.8542" x2="21.9" y2="47.1458" width="0.2032" layer="41" curve="-180"/>
-<wire x1="21.9" y1="47.1458" x2="21.9" y2="50.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="21.9" y1="47.1458" x2="21.9" y2="50.8542" width="0.2032" layer="42" curve="180"/>
-<wire x1="21.9" y1="47.1458" x2="21.9" y2="50.8542" width="0.2032" layer="42" curve="-180"/>
-<circle x="21.9" y="49" radius="2.794" width="0.127" layer="39"/>
-<hole x="21.9" y="49" drill="3.048"/>
-<wire x1="48" y1="29.5" x2="40.5" y2="29.5" width="0.05" layer="51"/>
-<wire x1="40.5" y1="29.5" x2="40.5" y2="36.05" width="0.05" layer="51"/>
-<wire x1="40.5" y1="36.05" x2="48" y2="36.05" width="0.05" layer="51"/>
-<wire x1="48" y1="36.05" x2="48" y2="29.5" width="0.05" layer="21"/>
-<wire x1="43" y1="51.5" x2="48" y2="51.5" width="0.05" layer="51"/>
-<wire x1="48" y1="51.5" x2="48" y2="44" width="0.05" layer="51"/>
-<wire x1="48" y1="44" x2="43" y2="44" width="0.05" layer="51"/>
-<wire x1="43" y1="44" x2="43" y2="51.5" width="0.05" layer="51"/>
-<wire x1="9.5" y1="50.5" x2="15" y2="50.5" width="0.05" layer="51"/>
-<wire x1="15" y1="50.5" x2="15" y2="39" width="0.05" layer="51"/>
-<wire x1="15" y1="39" x2="9.5" y2="39" width="0.05" layer="51"/>
-<wire x1="9.5" y1="39" x2="9.5" y2="50.5" width="0.05" layer="51"/>
-</package>
 <package name="ODROID-U2-KEEPOUT">
 <wire x1="48" y1="0" x2="14" y2="0" width="0.05" layer="51"/>
 <wire x1="14" y1="0" x2="0" y2="0" width="0.05" layer="51"/>
@@ -628,12 +530,12 @@ Source: http://www.ti.com/lit/ml/mpqf116g/mpqf116g.pdf</description>
 <wire x1="0" y1="52" x2="9.99" y2="52" width="0.05" layer="51"/>
 <wire x1="9.99" y1="52" x2="22.19" y2="52" width="0.05" layer="51"/>
 <wire x1="22.19" y1="52" x2="48" y2="52" width="0.05" layer="51"/>
-<wire x1="48" y1="52" x2="48" y2="20.915" width="0.05" layer="51"/>
-<wire x1="48" y1="20.915" x2="48" y2="1.865" width="0.05" layer="51"/>
-<wire x1="48" y1="1.865" x2="48" y2="0" width="0.05" layer="51"/>
-<wire x1="25" y1="20.915" x2="25" y2="1.865" width="0.05" layer="51"/>
-<wire x1="25" y1="1.865" x2="48" y2="1.865" width="0.05" layer="51"/>
-<wire x1="25" y1="20.915" x2="48" y2="20.915" width="0.05" layer="51"/>
+<wire x1="48" y1="52" x2="48" y2="20.879" width="0.05" layer="51"/>
+<wire x1="48" y1="20.879" x2="48" y2="1.956" width="0.05" layer="51"/>
+<wire x1="48" y1="1.956" x2="48" y2="0" width="0.05" layer="51"/>
+<wire x1="26.283" y1="20.879" x2="26.283" y2="1.956" width="0.05" layer="51"/>
+<wire x1="26.283" y1="1.956" x2="48" y2="1.956" width="0.05" layer="51"/>
+<wire x1="26.283" y1="20.879" x2="48" y2="20.879" width="0.05" layer="51"/>
 <wire x1="9.99" y1="47" x2="21.19" y2="47" width="0.05" layer="51"/>
 <wire x1="21.19" y1="47" x2="22.19" y2="48" width="0.05" layer="51"/>
 <wire x1="9.99" y1="47" x2="9.99" y2="52" width="0.05" layer="51"/>
@@ -669,12 +571,12 @@ Source: http://www.ti.com/lit/ml/mpqf116g/mpqf116g.pdf</description>
 <wire x1="33" y1="50.5" x2="33" y2="39" width="0.05" layer="51"/>
 <wire x1="33" y1="39" x2="38.5" y2="39" width="0.05" layer="51"/>
 <wire x1="38.5" y1="39" x2="38.5" y2="50.5" width="0.05" layer="51"/>
-<wire x1="25" y1="20.915" x2="48" y2="20.915" width="0.05" layer="39"/>
-<wire x1="25" y1="20.915" x2="25" y2="1.865" width="0.05" layer="39"/>
-<wire x1="25" y1="1.865" x2="48" y2="1.865" width="0.05" layer="39"/>
+<wire x1="26.283" y1="20.879" x2="48" y2="20.879" width="0.05" layer="39"/>
+<wire x1="26.283" y1="20.879" x2="26.283" y2="1.956" width="0.05" layer="39"/>
+<wire x1="26.283" y1="1.956" x2="48" y2="1.956" width="0.05" layer="39"/>
 <wire x1="0" y1="8" x2="14" y2="8" width="0.05" layer="51"/>
 <wire x1="14" y1="8" x2="14" y2="0" width="0.05" layer="51"/>
-<wire x1="48" y1="20.915" x2="48" y2="1.865" width="0.05" layer="39"/>
+<wire x1="48" y1="20.879" x2="48" y2="1.956" width="0.05" layer="39"/>
 <wire x1="0" y1="8" x2="14" y2="8" width="0.05" layer="39"/>
 <wire x1="14" y1="8" x2="14" y2="0" width="0.05" layer="39"/>
 <wire x1="14" y1="0" x2="0" y2="0" width="0.05" layer="39"/>
@@ -683,10 +585,10 @@ Source: http://www.ti.com/lit/ml/mpqf116g/mpqf116g.pdf</description>
 <wire x1="14" y1="8" x2="14" y2="0" width="0.05" layer="40"/>
 <wire x1="14" y1="0" x2="0" y2="0" width="0.05" layer="40"/>
 <wire x1="0" y1="0" x2="0" y2="8" width="0.05" layer="40"/>
-<wire x1="25" y1="20.915" x2="48" y2="20.915" width="0.05" layer="40"/>
-<wire x1="25" y1="20.915" x2="25" y2="1.865" width="0.05" layer="40"/>
-<wire x1="25" y1="1.865" x2="48" y2="1.865" width="0.05" layer="40"/>
-<wire x1="48" y1="20.915" x2="48" y2="1.865" width="0.05" layer="40"/>
+<wire x1="26.283" y1="20.879" x2="48" y2="20.879" width="0.05" layer="40"/>
+<wire x1="26.283" y1="20.879" x2="26.283" y2="1.956" width="0.05" layer="40"/>
+<wire x1="26.283" y1="1.956" x2="48" y2="1.956" width="0.05" layer="40"/>
+<wire x1="48" y1="20.879" x2="48" y2="1.956" width="0.05" layer="40"/>
 </package>
 <package name="1X04">
 <wire x1="6.985" y1="1.27" x2="8.255" y2="1.27" width="0.2032" layer="21"/>
@@ -1215,6 +1117,107 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <rectangle x1="-1.885" y1="-1.325" x2="-0.615" y2="-0.325" layer="51"/>
 <text x="3.9624" y="0.6732" size="0.6096" layer="25" font="vector" ratio="25">&gt;NAME</text>
 <text x="3.9624" y="-0.3048" size="0.6096" layer="27" font="vector" ratio="25">&gt;VALUE</text>
+</package>
+<package name="ODROID-U2-POGO">
+<pad name="9" x="7.32" y="7.85" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="1" x="9.86" y="7.85" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="2" x="9.86" y="10.39" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="3" x="7.32" y="10.39" drill="1.016" diameter="1.651" rot="R90"/>
+<pad name="4" x="7.32" y="10.39" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="10" x="7.32" y="12.39" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="13" x="9.86" y="12.39" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="14" x="7.32" y="14.93" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="25" x="9.86" y="14.93" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="26" x="14.72" y="6.87" drill="1.016" diameter="1.651" rot="R90"/>
+<pad name="27" x="14.72" y="6.87" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="28" x="14.72" y="9.41" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="29" x="14.72" y="11.95" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="30" x="14.72" y="14.49" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="31" x="17.26" y="15.76" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="32" x="17.26" y="13.22" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="33" x="17.26" y="10.68" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="34" x="17.26" y="8.14" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="35" x="20.04" y="4.09" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="36" x="20.04" y="6.63" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="37" x="20.04" y="15.91" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="38" x="20.04" y="18.45" drill="1.016" diameter="1.6256" rot="R90"/>
+<wire x1="21.717" y1="20.879" x2="21.717" y2="1.956" width="0.1524" layer="21"/>
+<wire x1="21.717" y1="1.956" x2="0" y2="1.956" width="0.1524" layer="21"/>
+<wire x1="21.717" y1="20.879" x2="0" y2="20.879" width="0.1524" layer="21"/>
+<pad name="5" x="28.1" y="49.03" drill="1.016" diameter="1.6256" shape="square" rot="R90" first="yes"/>
+<pad name="6" x="30.64" y="49.03" drill="1.016" diameter="1.6256" rot="R90" first="yes"/>
+<pad name="7" x="33.18" y="49.03" drill="1.016" diameter="1.6256" rot="R90" first="yes"/>
+<pad name="8" x="35.72" y="49.03" drill="1.016" diameter="1.6256" rot="R90" first="yes"/>
+<wire x1="26.81" y1="47" x2="25.81" y2="48" width="0.1524" layer="21"/>
+<wire x1="38.01" y1="47" x2="26.81" y2="47" width="0.1524" layer="21"/>
+<wire x1="38.01" y1="47" x2="38.01" y2="52" width="0.1524" layer="21"/>
+<wire x1="25.81" y1="48" x2="25.81" y2="52" width="0.1524" layer="21"/>
+<pad name="11" x="40.37" y="16.06" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="12" x="42.53" y="18.27" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="15" x="42.53" y="13.84" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="16" x="45.53" y="18.27" drill="1.016" diameter="1.6256" rot="R90"/>
+<pad name="17" x="45.53" y="13.84" drill="1.016" diameter="1.6256" rot="R90"/>
+<wire x1="41.4782" y1="18.51" x2="40.25" y2="18.51" width="0.1524" layer="21"/>
+<wire x1="40.25" y1="18.51" x2="40.25" y2="17.1196" width="0.1524" layer="21"/>
+<wire x1="43.5864" y1="18.51" x2="44.4754" y2="18.51" width="0.1524" layer="21"/>
+<wire x1="46.5836" y1="18.51" x2="47.9298" y2="18.51" width="0.1524" layer="21"/>
+<wire x1="40.25" y1="14.986" x2="40.25" y2="13.61" width="0.1524" layer="21"/>
+<wire x1="40.25" y1="13.61" x2="41.4782" y2="13.61" width="0.1524" layer="21"/>
+<wire x1="43.5864" y1="13.61" x2="44.4754" y2="13.61" width="0.1524" layer="21"/>
+<wire x1="46.5836" y1="13.61" x2="47.9298" y2="13.61" width="0.1524" layer="21"/>
+<wire x1="30.1" y1="4.8542" x2="30.1" y2="1.1458" width="0.2032" layer="41" curve="-180"/>
+<wire x1="30.1" y1="1.1458" x2="30.1" y2="4.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="30.1" y1="1.1458" x2="30.1" y2="4.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="30.1" y1="1.1458" x2="30.1" y2="4.8542" width="0.2032" layer="42" curve="-180"/>
+<circle x="30.1" y="3" radius="2.794" width="0.127" layer="39"/>
+<hole x="30.1" y="3" drill="3.048"/>
+<wire x1="45" y1="42.6542" x2="45" y2="38.9458" width="0.2032" layer="41" curve="-180"/>
+<wire x1="45" y1="38.9458" x2="45" y2="42.6542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="45" y1="38.9458" x2="45" y2="42.6542" width="0.2032" layer="42" curve="180"/>
+<wire x1="45" y1="38.9458" x2="45" y2="42.6542" width="0.2032" layer="42" curve="-180"/>
+<circle x="45" y="40.8" radius="2.794" width="0.127" layer="39"/>
+<hole x="45" y="40.8" drill="3.048"/>
+<wire x1="21.9" y1="50.8542" x2="21.9" y2="47.1458" width="0.2032" layer="41" curve="-180"/>
+<wire x1="21.9" y1="47.1458" x2="21.9" y2="50.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="21.9" y1="47.1458" x2="21.9" y2="50.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="21.9" y1="47.1458" x2="21.9" y2="50.8542" width="0.2032" layer="42" curve="-180"/>
+<circle x="21.9" y="49" radius="2.794" width="0.127" layer="39"/>
+<hole x="21.9" y="49" drill="3.048"/>
+<wire x1="48" y1="36.05" x2="48" y2="29.5" width="0.05" layer="21"/>
+<wire x1="0" y1="0" x2="34" y2="0" width="0.05" layer="51"/>
+<wire x1="34" y1="0" x2="48" y2="0" width="0.05" layer="51"/>
+<wire x1="48" y1="0" x2="48" y2="8" width="0.05" layer="51"/>
+<wire x1="48" y1="8" x2="48" y2="13.61" width="0.05" layer="51"/>
+<wire x1="48" y1="13.61" x2="48" y2="18.51" width="0.05" layer="51"/>
+<wire x1="48" y1="18.51" x2="48" y2="52" width="0.05" layer="51"/>
+<wire x1="48" y1="52" x2="38.01" y2="52" width="0.05" layer="51"/>
+<wire x1="38.01" y1="52" x2="25.81" y2="52" width="0.05" layer="51"/>
+<wire x1="25.81" y1="52" x2="0" y2="52" width="0.05" layer="51"/>
+<wire x1="0" y1="52" x2="0" y2="20.879" width="0.05" layer="51"/>
+<wire x1="0" y1="20.879" x2="0" y2="1.956" width="0.05" layer="51"/>
+<wire x1="0" y1="1.956" x2="0" y2="0" width="0.05" layer="51"/>
+<wire x1="21.717" y1="20.879" x2="21.717" y2="1.956" width="0.05" layer="51"/>
+<wire x1="21.717" y1="1.956" x2="0" y2="1.956" width="0.05" layer="51"/>
+<wire x1="21.717" y1="20.879" x2="0" y2="20.879" width="0.05" layer="51"/>
+<wire x1="38.01" y1="47" x2="26.81" y2="47" width="0.05" layer="51"/>
+<wire x1="26.81" y1="47" x2="25.81" y2="48" width="0.05" layer="51"/>
+<wire x1="38.01" y1="47" x2="38.01" y2="52" width="0.05" layer="51"/>
+<wire x1="25.81" y1="48" x2="25.81" y2="52" width="0.05" layer="51"/>
+<wire x1="40.25" y1="18.51" x2="40.25" y2="13.61" width="0.05" layer="51"/>
+<wire x1="40.25" y1="18.51" x2="48" y2="18.51" width="0.05" layer="51"/>
+<wire x1="40.25" y1="13.61" x2="48" y2="13.61" width="0.05" layer="51"/>
+<wire x1="48" y1="29.5" x2="40.5" y2="29.5" width="0.05" layer="51"/>
+<wire x1="40.5" y1="29.5" x2="40.5" y2="36.05" width="0.05" layer="51"/>
+<wire x1="40.5" y1="36.05" x2="48" y2="36.05" width="0.05" layer="51"/>
+<wire x1="43" y1="51.5" x2="48" y2="51.5" width="0.05" layer="51"/>
+<wire x1="48" y1="44" x2="43" y2="44" width="0.05" layer="51"/>
+<wire x1="43" y1="44" x2="43" y2="51.5" width="0.05" layer="51"/>
+<wire x1="9.5" y1="50.5" x2="15" y2="50.5" width="0.05" layer="51"/>
+<wire x1="15" y1="50.5" x2="15" y2="39" width="0.05" layer="51"/>
+<wire x1="15" y1="39" x2="9.5" y2="39" width="0.05" layer="51"/>
+<wire x1="9.5" y1="39" x2="9.5" y2="50.5" width="0.05" layer="51"/>
+<wire x1="48" y1="8" x2="34" y2="8" width="0.05" layer="51"/>
+<wire x1="34" y1="8" x2="34" y2="0" width="0.05" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -1765,7 +1768,7 @@ Digi-Key P/N: 296-20499-ND</description>
 <gate name="G$1" symbol="STAND-OFF" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-POGO" package="ODROID-U2">
+<device name="-POGO" package="ODROID-U2-POGO">
 <technologies>
 <technology name=""/>
 </technologies>
