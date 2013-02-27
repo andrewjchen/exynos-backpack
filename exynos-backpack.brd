@@ -8,7 +8,7 @@
 </settings>
 <grid distance="6" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,10 +23,10 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -4973,7 +4973,6 @@ design rules under a new name.</description>
 <vertex x="0" y="8.9916"/>
 </polygon>
 <contactref element="IC1" pad="3"/>
-<wire x1="19.9644" y1="35.5236" x2="20.4644" y2="35.5236" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="1.8V">
 <contactref element="IC2" pad="2"/>
@@ -5003,16 +5002,8 @@ design rules under a new name.</description>
 <contactref element="C10" pad="1"/>
 <contactref element="PS1" pad="2"/>
 <contactref element="JP3" pad="2"/>
-<wire x1="19.4644" y1="35.5236" x2="19.4644" y2="34.7472" width="0.254" layer="1"/>
-<wire x1="19.4644" y1="34.7472" x2="19.4644" y2="34.0026" width="0.254" layer="1"/>
+<wire x1="19.4644" y1="35.5236" x2="19.4644" y2="34.0026" width="0.254" layer="1"/>
 <wire x1="19.4644" y1="34.0026" x2="19.4818" y2="33.9852" width="0.254" layer="1"/>
-<wire x1="20.4644" y1="37.3236" x2="20.8788" y2="37.3236" width="0.254" layer="1"/>
-<wire x1="20.8788" y1="37.3236" x2="21.1836" y2="37.0188" width="0.254" layer="1"/>
-<wire x1="21.1836" y1="37.0188" x2="21.1836" y2="35.814" width="0.254" layer="1"/>
-<wire x1="21.1836" y1="35.814" x2="20.8788" y2="35.5092" width="0.254" layer="1"/>
-<wire x1="20.8788" y1="35.5092" x2="20.4644" y2="35.5092" width="0.254" layer="1"/>
-<wire x1="20.4644" y1="34.8662" x2="20.3454" y2="34.7472" width="0.254" layer="1"/>
-<wire x1="20.3454" y1="34.7472" x2="19.4644" y2="34.7472" width="0.254" layer="1"/>
 <wire x1="19.4818" y1="33.9852" x2="19.4818" y2="29.3878" width="0.508" layer="1"/>
 <wire x1="19.4818" y1="29.3878" x2="17.9832" y2="27.8892" width="0.508" layer="1"/>
 <wire x1="17.9832" y1="27.8892" x2="17.9832" y2="21.3233" width="0.508" layer="1"/>
@@ -5043,7 +5034,16 @@ design rules under a new name.</description>
 <vertex x="21.0312" y="9.4488"/>
 <vertex x="20.1168" y="8.5344"/>
 </polygon>
-<wire x1="20.4644" y1="34.8662" x2="20.4644" y2="35.5092" width="0" layer="19" extent="1-1"/>
+<via x="21.4884" y="35.3568" extent="1-16" drill="0.381"/>
+<wire x1="20.4644" y1="37.3236" x2="20.4644" y2="37.9904" width="0.254" layer="1"/>
+<wire x1="20.4644" y1="37.9904" x2="20.574" y2="38.1" width="0.254" layer="1"/>
+<wire x1="20.574" y1="38.1" x2="21.336" y2="38.1" width="0.254" layer="1"/>
+<wire x1="21.336" y1="38.1" x2="21.4884" y2="37.9476" width="0.254" layer="1"/>
+<wire x1="21.4884" y1="37.9476" x2="21.4884" y2="35.3568" width="0.254" layer="1"/>
+<via x="18.4404" y="35.3568" extent="1-16" drill="0.381"/>
+<wire x1="21.4884" y1="35.3568" x2="18.4404" y2="35.3568" width="0.254" layer="16"/>
+<wire x1="19.4644" y1="35.5236" x2="19.4644" y2="35.3568" width="0.254" layer="1"/>
+<wire x1="19.4644" y1="35.3568" x2="18.4404" y2="35.3568" width="0.254" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="C13" pad="1"/>
@@ -5053,9 +5053,9 @@ design rules under a new name.</description>
 <wire x1="18.2626" y1="40.386" x2="18.2088" y2="40.4398" width="0.254" layer="1"/>
 <wire x1="18.2088" y1="40.4398" x2="16.3804" y2="40.4398" width="0.254" layer="1"/>
 <wire x1="18.2626" y1="40.386" x2="18.2626" y2="38.862" width="0.254" layer="1"/>
-<wire x1="19.4644" y1="37.3236" x2="19.4644" y2="37.6094" width="0.254" layer="1"/>
-<wire x1="19.4644" y1="37.6094" x2="19.05" y2="38.0238" width="0.254" layer="1"/>
-<wire x1="19.05" y1="38.0238" x2="18.4404" y2="38.0238" width="0.254" layer="1"/>
+<wire x1="19.4644" y1="37.3236" x2="19.4644" y2="37.9142" width="0.254" layer="1"/>
+<wire x1="19.4644" y1="37.9142" x2="19.3548" y2="38.0238" width="0.254" layer="1"/>
+<wire x1="19.3548" y1="38.0238" x2="18.4404" y2="38.0238" width="0.254" layer="1"/>
 <wire x1="18.4404" y1="38.0238" x2="18.288" y2="38.1762" width="0.254" layer="1"/>
 <wire x1="18.288" y1="38.1762" x2="18.288" y2="38.8366" width="0.254" layer="1"/>
 <wire x1="18.288" y1="38.8366" x2="18.2626" y2="38.862" width="0.254" layer="1"/>
