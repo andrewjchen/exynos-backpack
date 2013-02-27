@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="3" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="6" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -56,8 +56,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
@@ -4847,7 +4847,7 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="EPAD"/>
 <contactref element="C15" pad="2"/>
 <contactref element="C16" pad="2"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" rank="6">
 <vertex x="0" y="52"/>
 <vertex x="30.524" y="52"/>
 <vertex x="30.524" y="22"/>
@@ -4857,10 +4857,10 @@ design rules under a new name.</description>
 <vertex x="15" y="9"/>
 <vertex x="0" y="9"/>
 </polygon>
-<polygon width="0.1524" layer="16">
+<polygon width="0.1524" layer="16" rank="6">
 <vertex x="0" y="52"/>
-<vertex x="35.096" y="52"/>
-<vertex x="35.096" y="22"/>
+<vertex x="32.048" y="52"/>
+<vertex x="32.048" y="22"/>
 <vertex x="25" y="22"/>
 <vertex x="25" y="0"/>
 <vertex x="15" y="0"/>
@@ -4889,6 +4889,22 @@ design rules under a new name.</description>
 <contactref element="JP2" pad="5"/>
 <contactref element="JP5" pad="4"/>
 <via x="7.4676" y="49.2252" extent="1-16" drill="0.6" shape="square"/>
+<polygon width="0.1524" layer="1" thermals="no" rank="2">
+<vertex x="0" y="31.5468"/>
+<vertex x="24.9936" y="31.5468"/>
+<vertex x="24.9936" y="5.4864"/>
+<vertex x="15.0876" y="5.4864"/>
+<vertex x="15.0876" y="8.9916"/>
+<vertex x="0" y="8.9916"/>
+</polygon>
+<polygon width="0.1524" layer="16" thermals="no" rank="2">
+<vertex x="0" y="31.5468"/>
+<vertex x="24.9936" y="31.5468"/>
+<vertex x="24.9936" y="5.4864"/>
+<vertex x="15.0876" y="5.4864"/>
+<vertex x="15.0876" y="8.9916"/>
+<vertex x="0" y="8.9916"/>
+</polygon>
 </signal>
 <signal name="1.8V">
 <contactref element="IC2" pad="2"/>
@@ -4931,8 +4947,36 @@ design rules under a new name.</description>
 <wire x1="20.4644" y1="35.5236" x2="20.4644" y2="34.8662" width="0.254" layer="1"/>
 <wire x1="20.4644" y1="34.8662" x2="20.3454" y2="34.7472" width="0.254" layer="1"/>
 <wire x1="20.3454" y1="34.7472" x2="19.4644" y2="34.7472" width="0.254" layer="1"/>
-<wire x1="22.0218" y1="17.2847" x2="19.4818" y2="33.9852" width="0" layer="19" extent="1-1"/>
-<wire x1="22.174" y1="14.1732" x2="22.0218" y2="17.2847" width="0" layer="19" extent="16-16"/>
+<wire x1="19.4818" y1="33.9852" x2="19.4818" y2="29.3878" width="0.508" layer="1"/>
+<wire x1="19.4818" y1="29.3878" x2="17.9832" y2="27.8892" width="0.508" layer="1"/>
+<wire x1="17.9832" y1="27.8892" x2="17.9832" y2="21.3233" width="0.508" layer="1"/>
+<wire x1="17.9832" y1="21.3233" x2="22.0218" y2="17.2847" width="0.508" layer="1"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="20.1168" y="6.858"/>
+<vertex x="20.7264" y="6.2484"/>
+<vertex x="24.9936" y="6.2484"/>
+<vertex x="24.9936" y="18.5928"/>
+<vertex x="21.336" y="18.5928"/>
+<vertex x="20.7264" y="17.9832"/>
+<vertex x="20.7264" y="12.3444"/>
+<vertex x="23.4696" y="12.3444"/>
+<vertex x="23.4696" y="9.4488"/>
+<vertex x="21.0312" y="9.4488"/>
+<vertex x="20.1168" y="8.5344"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="20.1168" y="6.858"/>
+<vertex x="20.7264" y="6.2484"/>
+<vertex x="24.9936" y="6.2484"/>
+<vertex x="24.9936" y="18.5928"/>
+<vertex x="21.336" y="18.5928"/>
+<vertex x="20.7264" y="17.9832"/>
+<vertex x="20.7264" y="12.3444"/>
+<vertex x="23.4696" y="12.3444"/>
+<vertex x="23.4696" y="9.4488"/>
+<vertex x="21.0312" y="9.4488"/>
+<vertex x="20.1168" y="8.5344"/>
+</polygon>
 </signal>
 <signal name="3.3V">
 <contactref element="C13" pad="1"/>
@@ -4960,8 +5004,36 @@ design rules under a new name.</description>
 <contactref element="C11" pad="1"/>
 <contactref element="PS1" pad="4"/>
 <contactref element="JP4" pad="2"/>
-<wire x1="5.5628" y1="11.1252" x2="6.96" y2="30.206" width="0" layer="19" extent="16-16"/>
-<wire x1="2.9718" y1="10.9347" x2="5.5628" y2="11.1252" width="0" layer="19" extent="16-16"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="7.7724" y="28.956"/>
+<vertex x="5.7912" y="28.956"/>
+<vertex x="4.4196" y="27.5844"/>
+<vertex x="4.4196" y="8.9916"/>
+<vertex x="0" y="8.9916"/>
+<vertex x="0" y="31.5468"/>
+<vertex x="7.7724" y="31.5468"/>
+<vertex x="8.382" y="30.9372"/>
+<vertex x="8.382" y="29.5656"/>
+</polygon>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="6.858" y="12.192"/>
+<vertex x="6.2484" y="12.8016"/>
+<vertex x="1.8288" y="12.8016"/>
+<vertex x="1.2192" y="12.192"/>
+<vertex x="1.2192" y="8.9916"/>
+<vertex x="6.858" y="8.9916"/>
+</polygon>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="7.7724" y="28.956"/>
+<vertex x="5.7912" y="28.956"/>
+<vertex x="4.4196" y="27.5844"/>
+<vertex x="4.4196" y="8.9916"/>
+<vertex x="0" y="8.9916"/>
+<vertex x="0" y="31.5468"/>
+<vertex x="7.7724" y="31.5468"/>
+<vertex x="8.382" y="30.9372"/>
+<vertex x="8.382" y="29.5656"/>
+</polygon>
 </signal>
 <signal name="ODROID_TXD">
 <contactref element="IC2" pad="3"/>
