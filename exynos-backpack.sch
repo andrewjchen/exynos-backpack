@@ -1219,6 +1219,54 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="48" y1="8" x2="34" y2="8" width="0.05" layer="51"/>
 <wire x1="34" y1="8" x2="34" y2="0" width="0.05" layer="51"/>
 </package>
+<package name="1X04_MOLEX_5267_NOSILK">
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.5" shape="square" rot="R90"/>
+<text x="-2.0412" y="-4.2052" size="0.6096" layer="25" font="vector" ratio="25">&gt;NAME</text>
+<text x="-2.0412" y="-5.1196" size="0.6096" layer="27" font="vector" ratio="25">&gt;VALUE</text>
+<rectangle x1="-0.3" y1="-0.3" x2="0.3" y2="0.3" layer="51"/>
+<wire x1="-2.45" y1="-3.15" x2="9.95" y2="-3.15" width="0.05" layer="51"/>
+<wire x1="-2.45" y1="-3.15" x2="-2.45" y2="-1.9" width="0.05" layer="51"/>
+<wire x1="-2.45" y1="-1" x2="-2.45" y2="0.48" width="0.05" layer="51"/>
+<wire x1="-1.2" y1="1.75" x2="9.95" y2="1.75" width="0.05" layer="51"/>
+<wire x1="9.95" y1="1.75" x2="9.95" y2="-1" width="0.05" layer="51"/>
+<wire x1="9.95" y1="-1.9" x2="9.95" y2="-3.15" width="0.05" layer="51"/>
+<wire x1="-1.75" y1="-2.35" x2="-1.75" y2="-1.9" width="0.05" layer="51"/>
+<wire x1="-1.75" y1="-1" x2="-1.75" y2="0.15" width="0.05" layer="51"/>
+<wire x1="9.25" y1="-2.35" x2="9.25" y2="-1.9" width="0.05" layer="51"/>
+<wire x1="9.25" y1="-1" x2="9.25" y2="0.15" width="0.05" layer="51"/>
+<wire x1="-0.95" y1="0.95" x2="-1.75" y2="0.15" width="0.05" layer="51"/>
+<wire x1="8.45" y1="0.95" x2="9.25" y2="0.15" width="0.05" layer="51"/>
+<wire x1="-2.45" y1="0.5" x2="-1.2" y2="1.75" width="0.05" layer="51"/>
+<wire x1="-1.75" y1="-2.35" x2="9.25" y2="-2.35" width="0.05" layer="51"/>
+<wire x1="-0.95" y1="0.95" x2="0.75" y2="0.95" width="0.05" layer="51"/>
+<wire x1="0.75" y1="0.95" x2="1.75" y2="0.95" width="0.05" layer="51"/>
+<wire x1="1.75" y1="0.95" x2="3.25" y2="0.95" width="0.05" layer="51"/>
+<wire x1="3.25" y1="0.95" x2="4.25" y2="0.95" width="0.05" layer="51"/>
+<wire x1="4.25" y1="0.95" x2="5.75" y2="0.95" width="0.05" layer="51"/>
+<wire x1="5.75" y1="0.95" x2="6.75" y2="0.95" width="0.05" layer="51"/>
+<wire x1="6.75" y1="0.95" x2="8.45" y2="0.95" width="0.05" layer="51"/>
+<wire x1="6.25" y1="0.45" x2="6.75" y2="0.95" width="0.05" layer="51"/>
+<wire x1="6.25" y1="0.45" x2="5.75" y2="0.95" width="0.05" layer="51"/>
+<wire x1="3.75" y1="0.45" x2="4.25" y2="0.95" width="0.05" layer="51"/>
+<wire x1="3.75" y1="0.45" x2="3.25" y2="0.95" width="0.05" layer="51"/>
+<wire x1="1.25" y1="0.45" x2="1.75" y2="0.95" width="0.05" layer="51"/>
+<wire x1="1.25" y1="0.45" x2="0.75" y2="0.95" width="0.05" layer="51"/>
+<pad name="2" x="2.5" y="0" drill="0.9" diameter="1.5" rot="R90"/>
+<pad name="3" x="5" y="0" drill="0.9" diameter="1.5" rot="R90"/>
+<pad name="4" x="7.5" y="0" drill="0.9" diameter="1.5" rot="R90"/>
+<rectangle x1="2.2" y1="-0.3" x2="2.8" y2="0.3" layer="51"/>
+<rectangle x1="4.7" y1="-0.3" x2="5.3" y2="0.3" layer="51"/>
+<rectangle x1="7.2" y1="-0.3" x2="7.8" y2="0.3" layer="51"/>
+<wire x1="10.25" y1="2.05" x2="-1.25" y2="2.05" width="0" layer="39"/>
+<wire x1="-1.25" y1="2.05" x2="-2.75" y2="0.55" width="0" layer="39"/>
+<wire x1="-2.75" y1="0.55" x2="-2.75" y2="-3.45" width="0" layer="39"/>
+<wire x1="-2.75" y1="-3.45" x2="10.25" y2="-3.45" width="0" layer="39"/>
+<wire x1="10.25" y1="-3.45" x2="10.25" y2="2.05" width="0" layer="39"/>
+<wire x1="9.25" y1="-1" x2="9.95" y2="-1" width="0.05" layer="51"/>
+<wire x1="9.25" y1="-1.9" x2="9.95" y2="-1.9" width="0.05" layer="51"/>
+<wire x1="-2.45" y1="-1" x2="-1.75" y2="-1" width="0.05" layer="51"/>
+<wire x1="-2.45" y1="-1.9" x2="-1.75" y2="-1.9" width="0.05" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -1329,12 +1377,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
 <text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-<symbol name="3.0V">
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="3.0V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="TXB0108">
 <wire x1="10.16" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
@@ -1654,19 +1696,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="3.0V">
-<description>3.0V supply symbol</description>
-<gates>
-<gate name="G$1" symbol="3.0V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TXB0108" prefix="IC">
 <gates>
 <gate name="G$1" symbol="TXB0108" x="0" y="0"/>
@@ -1952,6 +1981,17 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <technology name=""/>
 </technologies>
 </device>
+<device name="1X04_MOLEX_5267_NOSILK" package="1X04_MOLEX_5267_NOSILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="JST-RCY-FEMALE" prefix="JP">
@@ -2004,13 +2044,10 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="IC1" library="biomimetic" deviceset="MIC5335-SPYMT" device=""/>
 <part name="C12" library="biomimetic" deviceset="CAP" device="0402-CAP" value="1uF"/>
 <part name="C13" library="biomimetic" deviceset="CAP" device="0402-CAP" value="1uF"/>
-<part name="C14" library="biomimetic" deviceset="CAP" device="0402-CAP" value="1uF"/>
 <part name="U$4" library="biomimetic" deviceset="V_BATT" device=""/>
 <part name="GND9" library="biomimetic" deviceset="GND" device=""/>
 <part name="P+1" library="biomimetic" deviceset="3.3V" device=""/>
-<part name="U$5" library="biomimetic" deviceset="3.0V" device=""/>
 <part name="GND10" library="biomimetic" deviceset="GND" device=""/>
-<part name="GND11" library="biomimetic" deviceset="GND" device=""/>
 <part name="IC2" library="biomimetic" deviceset="TXB0108" device="RGY"/>
 <part name="U$10" library="biomimetic" deviceset="1.8V" device=""/>
 <part name="P+2" library="biomimetic" deviceset="3.3V" device=""/>
@@ -2026,14 +2063,14 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C11" library="biomimetic" deviceset="CAP" device="1210" value="100uF"/>
 <part name="GND23" library="biomimetic" deviceset="GND" device=""/>
 <part name="U$2" library="biomimetic" deviceset="ODROID-U2" device=""/>
-<part name="JP3" library="biomimetic" deviceset="JST-RCY-MALE" device="-NOSILK" value="JST-RCY-MALE-NOSILK"/>
+<part name="JP3" library="biomimetic" deviceset="JST-RCY-MALE" device="-NOSILK" value="BATTERY"/>
 <part name="U$3" library="biomimetic" deviceset="1.8V" device=""/>
 <part name="GND1" library="biomimetic" deviceset="GND" device=""/>
 <part name="GND2" library="biomimetic" deviceset="GND" device=""/>
 <part name="GND3" library="biomimetic" deviceset="GND" device=""/>
-<part name="JP1" library="biomimetic" deviceset="M04" device="MOLEX_5267" value="ODROID"/>
+<part name="JP1" library="biomimetic" deviceset="M04" device="1X04_MOLEX_5267_NOSILK" value="ODROID UART"/>
 <part name="GND4" library="biomimetic" deviceset="GND" device=""/>
-<part name="JP4" library="biomimetic" deviceset="JST-RCY-FEMALE" device="-NOSILK"/>
+<part name="JP4" library="biomimetic" deviceset="JST-RCY-FEMALE" device="-NOSILK" value="ODROID 5V"/>
 <part name="P+3" library="biomimetic" deviceset="3.3V" device=""/>
 <part name="U$6" library="biomimetic" deviceset="1.8V" device=""/>
 <part name="FRAME1" library="biomimetic" deviceset="FRAME-LETTER" device=""/>
@@ -2044,7 +2081,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND6" library="biomimetic" deviceset="GND" device=""/>
 <part name="U$13" library="biomimetic" deviceset="1.8V" device=""/>
 <part name="GND7" library="biomimetic" deviceset="GND" device=""/>
-<part name="JP5" library="biomimetic" deviceset="M04" device="MOLEX_5267" value="ODROID CONSOLE"/>
+<part name="JP5" library="biomimetic" deviceset="M04" device="MOLEX_5267" value="CONSOLE"/>
 </parts>
 <sheets>
 <sheet>
@@ -2060,14 +2097,11 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="JP2" gate="G$1" x="208.28" y="119.38" rot="R180"/>
 <instance part="IC1" gate="G$1" x="35.56" y="30.48"/>
 <instance part="C12" gate="G$1" x="15.24" y="30.48" rot="R180"/>
-<instance part="C13" gate="G$1" x="55.88" y="40.64"/>
-<instance part="C14" gate="G$1" x="55.88" y="12.7"/>
+<instance part="C13" gate="G$1" x="55.88" y="27.94"/>
 <instance part="U$4" gate="G$1" x="15.24" y="48.26"/>
 <instance part="GND9" gate="1" x="15.24" y="17.78"/>
-<instance part="P+1" gate="G$1" x="55.88" y="48.26"/>
-<instance part="U$5" gate="G$1" x="55.88" y="20.32"/>
-<instance part="GND10" gate="1" x="55.88" y="33.02"/>
-<instance part="GND11" gate="1" x="55.88" y="5.08"/>
+<instance part="P+1" gate="G$1" x="55.88" y="35.56"/>
+<instance part="GND10" gate="1" x="55.88" y="20.32"/>
 <instance part="IC2" gate="G$1" x="121.92" y="114.3"/>
 <instance part="U$10" gate="G$1" x="119.38" y="137.16" smashed="yes">
 <attribute name="VALUE" x="115.824" y="140.716" size="1.778" layer="96"/>
@@ -2106,18 +2140,18 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="15.24" y1="27.94" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="15.24" y1="22.86" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="22.86" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
 <junction x="15.24" y="22.86"/>
+<pinref part="IC1" gate="G$1" pin="EN_3.0V"/>
+<wire x1="20.32" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="27.94" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
+<junction x="20.32" y="22.86"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="35.56" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C14" gate="G$1" pin="2"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="55.88" y1="10.16" x2="55.88" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="22.86" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND"/>
@@ -2214,16 +2248,12 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="C12" gate="G$1" pin="2"/>
 <pinref part="U$4" gate="G$1" pin="V_BATT"/>
 <wire x1="15.24" y1="33.02" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="EN_3.0V"/>
 <wire x1="15.24" y1="38.1" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="27.94" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VIN"/>
 <wire x1="20.32" y1="33.02" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="EN_3.3V"/>
 <wire x1="22.86" y1="33.02" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
-<junction x="20.32" y="33.02"/>
 <wire x1="20.32" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
 <junction x="15.24" y="38.1"/>
 <junction x="20.32" y="38.1"/>
@@ -2233,13 +2263,11 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="P+1" gate="G$1" pin="3.3V"/>
-<wire x1="55.88" y1="43.18" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="30.48" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="3.3V"/>
-<wire x1="55.88" y1="45.72" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="33.02" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
-<junction x="55.88" y="45.72"/>
+<wire x1="55.88" y1="33.02" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<junction x="55.88" y="33.02"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VCCB"/>
@@ -2250,19 +2278,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="20.32" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="G$1" pin="3.3V"/>
-</segment>
-</net>
-<net name="3.0V" class="0">
-<segment>
-<pinref part="C14" gate="G$1" pin="1"/>
-<pinref part="U$5" gate="G$1" pin="3.0V"/>
-<wire x1="55.88" y1="15.24" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="3.0"/>
-<wire x1="55.88" y1="17.78" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="27.94" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="27.94" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="17.78" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
-<junction x="55.88" y="17.78"/>
 </segment>
 </net>
 <net name="1.8V" class="0">
